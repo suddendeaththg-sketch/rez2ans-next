@@ -2,7 +2,7 @@
 
 ## Windows x64
 
-1. Download `Rez2ANS-Next-3.1.0-Windows-x64-Setup.exe` from the current release folder or GitHub Release.
+1. Download `Rez2ANS-Next-3.2.0-Windows-x64-Setup.exe` from the current release folder or GitHub Release.
 2. Optionally verify it against `SHA256SUMS`.
 3. Run the installer and follow the prompts.
 4. Launch **Rez2ANS Next** from the Start Menu.
@@ -11,10 +11,10 @@ The installer places the application in Program Files, adds an Apps & Features e
 
 ## Debian, Ubuntu, and Mint x64
 
-Download `rez2ans-next_3.1.0_amd64.deb`, then install it with your graphical package installer or from a terminal:
+Download `rez2ans-next_3.2.0_amd64.deb`, then install it with your graphical package installer or from a terminal:
 
 ```bash
-sudo apt install ./rez2ans-next_3.1.0_amd64.deb
+sudo apt install ./rez2ans-next_3.2.0_amd64.deb
 ```
 
 If your system reports missing dependencies, run:
@@ -32,11 +32,11 @@ for your distribution.
 ## Linux x64 AppImage
 
 The AppImage is a portable alternative to the Debian package. Download
-`Rez2ANS_v3.1-x86_64.AppImage`, make it executable, and run it:
+`Rez2ANS-Next-3.2.0-x86_64.AppImage`, make it executable, and run it:
 
 ```bash
-chmod +x Rez2ANS_v3.1-x86_64.AppImage
-./Rez2ANS_v3.1-x86_64.AppImage
+chmod +x Rez2ANS-Next-3.2.0-x86_64.AppImage
+./Rez2ANS-Next-3.2.0-x86_64.AppImage
 ```
 
 It includes the Qt runtime and does not install files into your system. A
@@ -44,10 +44,10 @@ standard graphical Linux desktop session is required.
 
 ## Linux x64 Flatpak
 
-Download `Rez2ANS-Next-3.1.0-x86_64.flatpak`, then install and run it:
+Download `Rez2ANS-Next-3.2.0-x86_64.flatpak`, then install and run it:
 
 ```bash
-flatpak install --user ./Rez2ANS-Next-3.1.0-x86_64.flatpak
+flatpak install --user ./Rez2ANS-Next-3.2.0-x86_64.flatpak
 flatpak run com.suddendeaththgsketch.Rez2ANSNext
 ```
 

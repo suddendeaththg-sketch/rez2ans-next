@@ -44,16 +44,17 @@ Automatic conversion is a starting point, not a replacement for an artist’s ey
 
 ## Current release
 
-### Rez2ANS Next 3.1.0
+### Rez2ANS Next 3.2.0
 
 | Platform | Package | Notes |
 | --- | --- | --- |
-| Windows x64 | `Rez2ANS-Next-3.1.0-Windows-x64-Setup.exe` | Installer, Start Menu shortcut, and uninstaller |
-| Debian/Ubuntu/Mint x64 | `rez2ans-next_3.1.0_amd64.deb` | Native package with portable Qt dependency names |
-| Linux x64 | `Rez2ANS_v3.1-x86_64.AppImage` | Portable desktop package; no installation required |
-| Linux x64 | `Rez2ANS-Next-3.1.0-x86_64.flatpak` | Sandboxed package; CPU-only and may be slower |
+| Windows x64 | `Rez2ANS-Next-3.2.0-Windows-x64-Setup.exe` | Installer, Start Menu shortcut, and uninstaller |
+| Debian/Ubuntu/Mint x64 | `rez2ans-next_3.2.0_amd64.deb` | Native package with portable Qt dependency names |
+| Linux x64 | `Rez2ANS-Next-3.2.0-x86_64.AppImage` | Portable desktop package; no installation required |
+| Linux x64 | `Rez2ANS-Next-3.2.0-x86_64.flatpak` | Sandboxed package; CPU-only and may be slower |
+| macOS | — | DMG packaging path is ready; a signed macOS-built DMG will be published separately |
 
-The files and their checksums are in [releases/v3.1.0](releases/v3.1.0). Read the [release notes](releases/v3.1.0/RELEASE_NOTES.md) before installing.
+The files and their checksums are in [releases/v3.2.0](releases/v3.2.0). Read the [release notes](releases/v3.2.0/RELEASE_NOTES.md) before installing.
 
 ```bash
 sha256sum -c SHA256SUMS
