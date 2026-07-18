@@ -2,14 +2,15 @@
 
 ## Windows x64
 
-1. Download `Rez2ANS-Next-3.2.1-Windows-x64-Setup.exe` from the current release folder or GitHub Release.
+1. Download `Rez2ANS-Next-3.2.2-Windows-x64-Setup.exe` from the current release folder or GitHub Release.
 2. Optionally verify it against `SHA256SUMS`.
 3. Run the installer and follow the prompts.
 4. Launch **Rez2ANS Next** from the Start Menu.
 
 The installer places the application in Program Files, adds an Apps & Features entry, and includes an uninstaller.
 
-The 3.2.1 Windows installer defaults to a compatibility UI renderer to avoid
+The 3.2.2 Windows installer includes its bundled Qt QML runtime explicitly and
+defaults to a compatibility UI renderer to avoid
 startup failures on older or unstable integrated graphics drivers. It affects
 only interface drawing, not image conversion.
 

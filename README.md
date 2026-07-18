@@ -44,13 +44,13 @@ Automatic conversion is a starting point, not a replacement for an artist’s ey
 
 ## Current release
 
-### Windows compatibility update: 3.2.1
+### Windows compatibility update: 3.2.2
 
 | Platform | Package | Notes |
 | --- | --- | --- |
-| Windows x64 | `Rez2ANS-Next-3.2.1-Windows-x64-Setup.exe` | Uses a safer default UI renderer for Intel and other integrated graphics |
+| Windows x64 | `Rez2ANS-Next-3.2.2-Windows-x64-Setup.exe` | Includes the complete Qt QML runtime and safer integrated-graphics UI startup |
 
-The Windows installer and its checksum are in [releases/v3.2.1](releases/v3.2.1). Read the [Windows compatibility notes](releases/v3.2.1/RELEASE_NOTES.md) before installing.
+The Windows installer and its checksum are in [releases/v3.2.2](releases/v3.2.2). Read the [Windows compatibility notes](releases/v3.2.2/RELEASE_NOTES.md) before installing. Version 3.2.2 replaces the Windows-only 3.2.1 update.
 
 ### Linux release: 3.2.0
 
