@@ -1,7 +1,8 @@
 # Rez2ANS Next 3.1.0
 
 This release provides the standalone Debian x64 package and Windows x64
-installer for Rez2ANS Next, plus a portable Linux x64 AppImage.
+installer for Rez2ANS Next, plus portable Linux x64 AppImage and Flatpak
+packages.
 
 ## Installation
 
@@ -13,5 +14,8 @@ installer for Rez2ANS Next, plus a portable Linux x64 AppImage.
   uninstaller through Windows Apps & Features.
 - Linux AppImage: mark `Rez2ANS_v3.1-x86_64.AppImage` executable, then run it
   directly. It does not install files into your system.
+- Linux Flatpak: install `Rez2ANS-Next-3.1.0-x86_64.flatpak` with `flatpak
+  install --user`. The Flatpak is CPU-only and can be slower than the native
+  Debian package or AppImage on systems with Vulkan acceleration.
 
 Verify the release files with `SHA256SUMS` before installation.

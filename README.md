@@ -9,7 +9,8 @@ This is the official **release and documentation** repository. It provides ready
 ## Start here
 
 - [Download the current release](#current-release)
-- [Install on Windows or Debian/Ubuntu](docs/INSTALLATION.md)
+- [Install on Windows or Linux](docs/INSTALLATION.md)
+- [Flatpak guide and performance note](docs/FLATPAK.md)
 - [Convert your first image](docs/QUICK_START.md)
 - [Try the sample conversion profiles](profiles/README.md)
 - [Create source artwork with prompt guides](prompts/README.md)
@@ -31,7 +32,7 @@ Current release features include:
 - A configurable output directory
 - Thread-safe multithreaded conversion
 - Optional Vulkan acceleration with compatible hardware and drivers
-- Windows and Debian/Ubuntu x64 packages
+- Windows installer plus Debian/Ubuntu/Mint, AppImage, and Flatpak x64 packages
 
 ## Who it is for
 
@@ -48,6 +49,7 @@ Automatic conversion is a starting point, not a replacement for an artist’s ey
 | Windows x64 | `Rez2ANS-Next-3.1.0-Windows-x64-Setup.exe` | Installer, Start Menu shortcut, and uninstaller |
 | Debian/Ubuntu/Mint x64 | `rez2ans-next_3.1.0_amd64.deb` | Native package with portable Qt dependency names |
 | Linux x64 | `Rez2ANS_v3.1-x86_64.AppImage` | Portable desktop package; no installation required |
+| Linux x64 | `Rez2ANS-Next-3.1.0-x86_64.flatpak` | Sandboxed package; CPU-only and may be slower |
 
 The files and their checksums are in [releases/v3.1.0](releases/v3.1.0). Read the [release notes](releases/v3.1.0/RELEASE_NOTES.md) before installing.
 

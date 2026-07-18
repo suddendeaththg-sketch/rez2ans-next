@@ -42,6 +42,20 @@ chmod +x Rez2ANS_v3.1-x86_64.AppImage
 It includes the Qt runtime and does not install files into your system. A
 standard graphical Linux desktop session is required.
 
+## Linux x64 Flatpak
+
+Download `Rez2ANS-Next-3.1.0-x86_64.flatpak`, then install and run it:
+
+```bash
+flatpak install --user ./Rez2ANS-Next-3.1.0-x86_64.flatpak
+flatpak run com.suddendeaththgsketch.Rez2ANSNext
+```
+
+The Flatpak includes a stable Qt runtime and avoids Linux distribution package
+differences. It is CPU-only in this release, so conversions can be slower than
+the Debian package or AppImage when Vulkan acceleration is available. See the
+[Flatpak guide](FLATPAK.md) for details.
+
 ## Vulkan acceleration
 
 Vulkan is optional. When a compatible GPU and driver are available, Rez2ANS Next can offer its Vulkan-accelerated path. The normal CPU path remains available and does not require a discrete NVIDIA card.
