@@ -56,6 +56,13 @@ differences. It is CPU-only in this release, so conversions can be slower than
 the Debian package or AppImage when Vulkan acceleration is available. See the
 [Flatpak guide](FLATPAK.md) for details.
 
+## macOS
+
+Rez2ANS Next includes a native macOS DMG packaging path. A real DMG must be
+built on macOS because it uses Apple's `macdeployqt` and `hdiutil` tools. The
+DMG is not yet included in the current downloadable release; see the
+[macOS guide](MACOS.md) for build, signing, and notarization information.
+
 ## Vulkan acceleration
 
 Vulkan is optional. When a compatible GPU and driver are available, Rez2ANS Next can offer its Vulkan-accelerated path. The normal CPU path remains available and does not require a discrete NVIDIA card.

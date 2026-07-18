@@ -10,6 +10,7 @@ This is the official **release and documentation** repository. It provides ready
 
 - [Download the current release](#current-release)
 - [Install on Windows or Linux](docs/INSTALLATION.md)
+- [macOS availability and DMG guidance](docs/MACOS.md)
 - [Flatpak guide and performance note](docs/FLATPAK.md)
 - [Convert your first image](docs/QUICK_START.md)
 - [Try the sample conversion profiles](profiles/README.md)
@@ -33,6 +34,7 @@ Current release features include:
 - Thread-safe multithreaded conversion
 - Optional Vulkan acceleration with compatible hardware and drivers
 - Windows installer plus Debian/Ubuntu/Mint, AppImage, and Flatpak x64 packages
+- macOS DMG packaging support for native macOS builds
 
 ## Who it is for
 
