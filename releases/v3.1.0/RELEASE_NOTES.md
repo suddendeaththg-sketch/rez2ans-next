@@ -5,8 +5,9 @@ installer for Rez2ANS Next, plus a portable Linux x64 AppImage.
 
 ## Installation
 
-- Debian/Ubuntu: install `rez2ans-next_3.1.0_amd64.deb` with your preferred
-  package installer.
+- Debian/Ubuntu/Mint: install `rez2ans-next_3.1.0_amd64.deb` with your
+  preferred package installer. It supports Debian 13's Qt package names and
+  Ubuntu/Mint's `t64` Qt package names without a compatibility shim.
 - Windows: run `Rez2ANS-Next-3.1.0-Windows-x64-Setup.exe`. It installs the
   application under Program Files, adds Start Menu shortcuts, and provides an
   uninstaller through Windows Apps & Features.

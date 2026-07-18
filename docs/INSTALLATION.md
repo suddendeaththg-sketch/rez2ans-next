@@ -9,7 +9,7 @@
 
 The installer places the application in Program Files, adds an Apps & Features entry, and includes an uninstaller.
 
-## Debian and Ubuntu x64
+## Debian, Ubuntu, and Mint x64
 
 Download `rez2ans-next_3.1.0_amd64.deb`, then install it with your graphical package installer or from a terminal:
 
@@ -24,6 +24,10 @@ sudo apt --fix-broken install
 ```
 
 Launch Rez2ANS Next from your applications menu after installation.
+
+The package supports Debian 13 and current Ubuntu/Mint releases without a
+manual Qt compatibility package. APT selects the correct Qt 6 package names
+for your distribution.
 
 ## Linux x64 AppImage
 
