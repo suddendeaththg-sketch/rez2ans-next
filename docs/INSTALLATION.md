@@ -25,6 +25,19 @@ sudo apt --fix-broken install
 
 Launch Rez2ANS Next from your applications menu after installation.
 
+## Linux x64 AppImage
+
+The AppImage is a portable alternative to the Debian package. Download
+`Rez2ANS_v3.1-x86_64.AppImage`, make it executable, and run it:
+
+```bash
+chmod +x Rez2ANS_v3.1-x86_64.AppImage
+./Rez2ANS_v3.1-x86_64.AppImage
+```
+
+It includes the Qt runtime and does not install files into your system. A
+standard graphical Linux desktop session is required.
+
 ## Vulkan acceleration
 
 Vulkan is optional. When a compatible GPU and driver are available, Rez2ANS Next can offer its Vulkan-accelerated path. The normal CPU path remains available and does not require a discrete NVIDIA card.

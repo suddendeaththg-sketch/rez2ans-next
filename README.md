@@ -47,6 +47,7 @@ Automatic conversion is a starting point, not a replacement for an artist’s ey
 | --- | --- | --- |
 | Windows x64 | `Rez2ANS-Next-3.1.0-Windows-x64-Setup.exe` | Installer, Start Menu shortcut, and uninstaller |
 | Debian/Ubuntu x64 | `rez2ans-next_3.1.0_amd64.deb` | Native Debian package |
+| Linux x64 | `Rez2ANS_v3.1-x86_64.AppImage` | Portable desktop package; no installation required |
 
 The files and their checksums are in [releases/v3.1.0](releases/v3.1.0). Read the [release notes](releases/v3.1.0/RELEASE_NOTES.md) before installing.
 
