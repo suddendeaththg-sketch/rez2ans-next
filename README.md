@@ -11,6 +11,8 @@ This is the official **release and documentation** repository. It provides ready
 - [Download the current release](#current-release)
 - [Install on Windows or Debian/Ubuntu](docs/INSTALLATION.md)
 - [Convert your first image](docs/QUICK_START.md)
+- [Try the sample conversion profiles](profiles/README.md)
+- [Create source artwork with prompt guides](prompts/README.md)
 - [Get help or share results](docs/COMMUNITY.md)
 - [Contribute, test, or help document the project](docs/CONTRIBUTING.md)
 - [See the project direction](docs/ROADMAP.md)
@@ -61,6 +63,10 @@ sha256sum -c SHA256SUMS
 5. Open the result in an ANSI editor for final lettering, cleanup, and polish.
 
 See the [Quick Start](docs/QUICK_START.md) for source-image guidance and export information.
+
+## Profiles and source-art prompts
+
+The [sample profiles](profiles/README.md) give you ready-to-load starting settings for BBS logos, portraits, and tall scrollers. The [source-art prompt guides](prompts/README.md) help create clear, high-contrast artwork that converts well. Both are starting points: adjust them for the image and save your own successful profiles.
 
 ## Project history and respect
 

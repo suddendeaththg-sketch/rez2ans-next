@@ -12,6 +12,7 @@
 8. Save ANSI, BIN, or a PNG preview.
 
 Profiles let you save a successful setup and reuse it for similar artwork.
+Ready-to-load examples are available in the [sample profiles directory](../profiles/README.md).
 
 ## Source-image guidance
 
@@ -32,3 +33,5 @@ Photographs, fine textures, subtle gradients, small lettering, and crowded scene
 - **PNG**: a lossless image of the rendered ANSI preview, useful for sharing results online.
 
 For a finished scene piece, use the conversion as a base and refine it in an ANSI editor: repair lettering, improve outlines, adjust colors, and add the details that make the piece yours.
+
+For help creating source artwork with large shapes and a limited palette, see the [prompt guides](../prompts/README.md).
