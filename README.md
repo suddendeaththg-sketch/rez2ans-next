@@ -44,17 +44,24 @@ Automatic conversion is a starting point, not a replacement for an artist’s ey
 
 ## Current release
 
-### Rez2ANS Next 3.2.0
+### Windows compatibility update: 3.2.1
 
 | Platform | Package | Notes |
 | --- | --- | --- |
-| Windows x64 | `Rez2ANS-Next-3.2.0-Windows-x64-Setup.exe` | Installer, Start Menu shortcut, and uninstaller |
+| Windows x64 | `Rez2ANS-Next-3.2.1-Windows-x64-Setup.exe` | Uses a safer default UI renderer for Intel and other integrated graphics |
+
+The Windows installer and its checksum are in [releases/v3.2.1](releases/v3.2.1). Read the [Windows compatibility notes](releases/v3.2.1/RELEASE_NOTES.md) before installing.
+
+### Linux release: 3.2.0
+
+| Platform | Package | Notes |
+| --- | --- | --- |
 | Debian/Ubuntu/Mint x64 | `rez2ans-next_3.2.0_amd64.deb` | Native package with portable Qt dependency names |
 | Linux x64 | `Rez2ANS-Next-3.2.0-x86_64.AppImage` | Portable desktop package; no installation required |
 | Linux x64 | `Rez2ANS-Next-3.2.0-x86_64.flatpak` | Sandboxed package; CPU-only and may be slower |
 | macOS | — | DMG packaging path is ready; an unsigned macOS-built DMG will be published separately |
 
-The files and their checksums are in [releases/v3.2.0](releases/v3.2.0). Read the [release notes](releases/v3.2.0/RELEASE_NOTES.md) before installing.
+The Linux files and their checksums are in [releases/v3.2.0](releases/v3.2.0). Read the [release notes](releases/v3.2.0/RELEASE_NOTES.md) before installing.
 
 ```bash
 sha256sum -c SHA256SUMS
