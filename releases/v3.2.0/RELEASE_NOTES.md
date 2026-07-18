@@ -19,7 +19,8 @@ more comfortable image preparation.
 - **Linux AppImage:** Mark `Rez2ANS-Next-3.2.0-x86_64.AppImage` executable, then run it directly. It is portable and does not install files system-wide.
 - **Linux Flatpak:** Install `Rez2ANS-Next-3.2.0-x86_64.flatpak` with `flatpak install --user`. The Flatpak deliberately uses the CPU conversion path, so it can be slower than the Debian package or AppImage on systems where Vulkan is available.
 
-The macOS DMG build path is documented, but a signed macOS-built DMG is not
-included in this release. See the [macOS guide](../../docs/MACOS.md).
+The macOS DMG build path is documented, but an unsigned macOS-built DMG is not
+included in this release. See the [macOS guide](../../docs/MACOS.md) for the
+one-time Gatekeeper override needed when that package is available.
 
 Verify downloads with the included `SHA256SUMS` file before installing.

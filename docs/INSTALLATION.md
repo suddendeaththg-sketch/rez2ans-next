@@ -60,8 +60,9 @@ the Debian package or AppImage when Vulkan acceleration is available. See the
 
 Rez2ANS Next includes a native macOS DMG packaging path. A real DMG must be
 built on macOS because it uses Apple's `macdeployqt` and `hdiutil` tools. The
-DMG is not yet included in the current downloadable release; see the
-[macOS guide](MACOS.md) for build, signing, and notarization information.
+DMG is not yet included in the current downloadable release. Releases will be
+unsigned, so macOS users may need to use the Gatekeeper override described in
+the [macOS guide](MACOS.md).
 
 ## Vulkan acceleration
 
